@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Roider</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Roider</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="images/76953188_1030036350671057_7818438928108617728_n (1).jpg" alt="Roider profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Roider Talingting</h1>
+        <p class="section__text__p2">Graphic Designer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('images/ROIDER_RESUME.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="images/icons8-fb-30.png"
+            alt="My facebook profile"
+            class="icon"
+            onclick="location.href='https://web.facebook.com/kuyzroidz09/'"
+          />
+          <img
+            src="images/icons8-ig-30.png"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/am_roidz/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="images/320696616_1145225286130782_5991142511732515425_n.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="images/icons8-experience-30.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Graphic Designer <br> Photography</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="images/icons8-education-30.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree <br>in Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              "I'm a creative graphic designer and photographer with a deep passion for visual storytelling.
+              I specialize in bringing ideas to life through innovative design solutions and captivating photography, 
+              always aiming to evoke emotion and create a lasting impact. With a keen eye for detail and a love for aesthetics, 
+              I seamlessly merge design and photography to deliver cohesive, memorable experiences that resonate with audiences across 
+              various mediums."</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/icons8-arrow-down-50.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Graphic Designer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tshirt</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Polo Shirt</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pubmats</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lanyards</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IDs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Photography</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angles</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lighting</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/icons8-check-30.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Color Grading</h3>
+                  <p>Intermediate</p>
+                </div>               
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/icons8-arrow-down-50.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/type b dancer.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ph.pinterest.com/roider1843/_created/'"
+              >
+                Pinterest
+              </button>
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Sample
+              </button>-->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/Untitled design (33).png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ph.pinterest.com/roider1843/_created/'"
+              >
+                Pinterest
+              </button>
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Sample
+              </button>-->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/Shane.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ph.pinterest.com/roider1843/_created/'"
+              >
+                Pinterest
+              </button>
+              <!---<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Sample
+              </button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/icons8-arrow-down-50.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="images/icons8-gmail-50.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">roidertalingting@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="images/icons8-phone-50.png"
+            alt="phone icon"
+            class="icon contact-icon"
+          />
+          <p><a href="09120696780">09120696780</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Roider. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
